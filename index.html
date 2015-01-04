@@ -4,3 +4,24 @@ layout: default
 <p>2015 will be the sixth year that I review the most important trends in the ed-tech industry. (You can look at the trends from other years <a href="http://research.hackeducation.com/trends.html">here</a>.)</p>
 
 <p>If you're interested in the data that drives this year's trends, explore the <a href="https://github.com/audreywatters/2011trends">Github repo</a>.</p>
+
+    <h5 class="index-headline normal"><span>Updates</span></h5>
+    
+<div class="cf frame">
+  {% for post in paginator.posts %}
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+      <div class="article-item">
+        <header class="post-header">
+          <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
+        </header>
+        <section class="post-excerpt" itemprop="description">
+          <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+        </section>
+        <div class="post-meta">
+          <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
+<!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
+        </div>
+      <div>
+    </article>
+  {% endfor %}
+</div>
