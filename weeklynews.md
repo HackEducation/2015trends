@@ -9,3 +9,5 @@ http://hackeducation.com/2015/01/16/hack-education-weekly-news/
 http://hackeducation.com/2015/01/23/hack-education-weekly-news/
 
 http://hackeducation.com/2015/01/30/hack-education-weekly-news/
+
+http://hackeducation.com/2015/02/06/hack-education-weekly-news/
