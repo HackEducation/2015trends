@@ -21,3 +21,9 @@ http://hackeducation.com/2015/02/27/hack-education-weekly-news/
 http://hackeducation.com/2015/03/06/hack-education-weekly-news/
 
 http://hackeducation.com/2015/03/13/hack-education-weekly-news/
+
+http://hackeducation.com/2015/03/20/hack-education-weekly-news/
+
+http://hackeducation.com/2015/03/27/hack-education-weekly-news/
+
+http://hackeducation.com/2015/04/03/hack-education-weekly-news/
